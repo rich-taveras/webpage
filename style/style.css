@@ -1,6 +1,6 @@
 @font-face {
   font-family: coolvetica;
-  src:local("coolvetica"), url("fonts/coolvetica rg it.otf")
+  src: url ("../fonts/coolvetica\ rg\ it.otf")
     }
 body {
   margin: 10px;
