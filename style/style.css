@@ -1,6 +1,7 @@
-@font-face{
-font-family: coolvetica;
-src: url(coolvetica);
+@font-face {
+  font-family: coolvetica;
+  src: url ("fonts/coolvetica rg it.otf")
+    }
 body {
   margin: 10px;
 }
@@ -9,45 +10,45 @@ body {
     color: white;
     font-size: 30px;
   }
-  img {
+img {
     width: 300px;
     border-radius: 55px;
   }
-  .highlight {
+.highlight {
     font-family: coolvetica ;
     color: #e31b6d;
     font-weight: light;
     font-size: 30px;
   }
-  body {
+body {
     background-color: black;
 }
-box-one {
-  padding-top: 20%;
+.box-one {
+  padding-top: 50%;
   background: radial-gradient(circle, black, grey) ;
   width: 100%;
   height: 30em ;
-  align-items: center;
 }
-box-two {
-  background: linear-gradient(dodgerblue, yellow) ;
+.box-two {
+  padding-top: 50%;
+  background: radial-gradient(dodgerblue, white) ;
   width: 100% ;
-  height: 15em ;
+  height: 20em ;
   }
-  .flex {
+.flex {
     display: flex;
     justify-content: center;
     color: #e31b6d;
     font-size: 30px;
   }
-  .bottom{
+.bottom{
     align-items: center;
     display: flex;
     justify-content: center;
     color: #e31b6d;
     font-size: 30px;
   }
-  #about {
+#about {
     font-family: coolvetica ;
     color: black;
     font-weight: light;
@@ -65,3 +66,4 @@ box-two {
     border: 1px solid white;
     font-weight: light;
     font-size: 22px;
+  }
